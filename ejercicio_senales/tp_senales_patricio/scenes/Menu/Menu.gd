@@ -11,7 +11,7 @@ func _ready():
 	violet_generator.connect("button_down", self.count_new_instance)
 	# Inicializa el texto de "CountLabel" usando el texto
 	# Constante "INSTANCES_TEXT" más el valor de "instancesCount" como Texto
-	add_to_group("blocks")
+	add_to_group("blocks") 
 	$CountLabel.text = INSTANCES_TEXT + str(instancesCount)
 	pass
 func count_new_instance():
