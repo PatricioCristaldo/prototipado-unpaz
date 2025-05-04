@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://c34g20kshkvbs" path="res://scenes/Buttons/VioletGenerator/VioletGenerator.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://c0fr6ukyj835o" path="res://scenes/Buttons/RedGenerator/RedGenerator.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://bjypffv2pw61o" path="res://scenes/Buttons/Reset/Reset.tscn" id="4"]
-[ext_resource type="Script" path="res://scenes/Menu/Menu.gd" id="5"]
+[ext_resource type="Script" uid="uid://ba56weqd7il8n" path="res://scenes/Menu/Menu.gd" id="5"]
 
 [sub_resource type="RectangleShape2D" id="1"]
 size = Vector2(1519.98, 67.3924)
