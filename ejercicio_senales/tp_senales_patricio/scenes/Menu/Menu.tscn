@@ -1,10 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://bfoq3euaj21i3"]
+[gd_scene load_steps=7 format=3 uid="uid://5npw1qu7brhu"]
 
 [ext_resource type="Texture2D" uid="uid://dgcw0vs3drey1" path="res://assets/background.png" id="1"]
-[ext_resource type="PackedScene" uid="uid://dncxujshbxt8f" path="res://scenes/Buttons/VioletGenerator/VioletGenerator.tscn" id="2"]
-[ext_resource type="PackedScene" uid="uid://nwbl03ueqyor" path="res://scenes/Buttons/RedGenerator/RedGenerator.tscn" id="3"]
-[ext_resource type="PackedScene" uid="uid://cey6fuiebmhpe" path="res://scenes/Buttons/Reset/Reset.tscn" id="4"]
-[ext_resource type="Script" uid="uid://ba56weqd7il8n" path="res://scenes/Menu/Menu.gd" id="5"]
+[ext_resource type="PackedScene" uid="uid://c34g20kshkvbs" path="res://scenes/Buttons/VioletGenerator/VioletGenerator.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://c0fr6ukyj835o" path="res://scenes/Buttons/RedGenerator/RedGenerator.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://bjypffv2pw61o" path="res://scenes/Buttons/Reset/Reset.tscn" id="4"]
+[ext_resource type="Script" path="res://scenes/Menu/Menu.gd" id="5"]
 
 [sub_resource type="RectangleShape2D" id="1"]
 size = Vector2(1519.98, 67.3924)
