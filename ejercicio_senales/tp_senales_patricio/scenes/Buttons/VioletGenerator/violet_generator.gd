@@ -1,5 +1,10 @@
 extends TextureButton
-
+func _ready():
+	$Button.connect("button_down", self._on_button_down)
 
 func _on_button_down() -> void:
-	pass # Replace with function body.
+	generate_block()
+
+func generate_block():
+	var block_instance = preload("res://scenes/Buttons/VioletGenerator/VioletGenerator.tscn").instantiate()
+	add_child(block_instance)
