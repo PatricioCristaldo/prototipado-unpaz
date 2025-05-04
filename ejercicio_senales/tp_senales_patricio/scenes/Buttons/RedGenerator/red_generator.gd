@@ -9,3 +9,5 @@ func _on_button_down() -> void:
 func generate_block():
 	var block_instance = preload("res://scenes/Buttons/RedGenerator/RedGenerator.tscn").instantiate()
 	add_child(block_instance)
+func delete():
+	queue_free()
